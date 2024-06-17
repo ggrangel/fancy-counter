@@ -44,76 +44,15 @@ The Fancy Counter project is a modern and interactive web application designed t
 |----|-------------------|---------------------------------------------------------------|
 | ⚙️  | **Architecture**  | The project follows a React-based architecture with components like ButtonContainer, Count, Card, ResetButton, and Title. It leverages Vite for development and integrates React-specific functionality efficiently.|
 | 🔩 | **Code Quality**  | The codebase maintains a high quality with ESLint for code linting and adheres to best practices with well-structured components and clean code.|
-| 📄 | **Documentation** | The project includes inline code comments, but lacks comprehensive documentation. More detailed documentation could improve project usability and contribute to developer onboarding.|
 | 🔌 | **Integrations**  | Key integrations include @radix-ui/react-icons for icons, Vite for React setup, and ESLint for code quality checks.|
 | 🧩 | **Modularity**    | The codebase is modular with well-separated components for button functionality, count display, card management, and more. Components are reusable and maintain clear separation of concerns.|
 | 🧪 | **Testing**       | The project may benefit from adding testing frameworks like Jest and React Testing Library to ensure code reliability and prevent regressions.|
 | ⚡️  | **Performance**   | The project demonstrates efficient performance with React Concurrent Mode and careful state management for smooth user interactions.|
-| 🛡️ | **Security**      | Data protection measures are not explicitly mentioned in the project details. Implementing best security practices for data handling and access control is crucial for ensuring user data protection.|
 | 📦 | **Dependencies**  | Key dependencies include @radix-ui/react-icons, Vite, React, ESLint, and various plugins for development and building processes.|
 
 ---
 
-##  Repository Structure
-
-```sh
-└── fancy-counter/
-    ├── README.md
-    ├── index.html
-    ├── package-lock.json
-    ├── package.json
-    ├── public
-    │   └── vite.svg
-    ├── src
-    │   ├── App.jsx
-    │   ├── ButtonContainer.jsx
-    │   ├── Card.jsx
-    │   ├── Count.jsx
-    │   ├── ResetButton.jsx
-    │   ├── Title.jsx
-    │   ├── assets
-    │   ├── index.css
-    │   └── main.jsx
-    └── vite.config.js
-```
-
----
-
-##  Modules
-
-<details closed><summary>.</summary>
-
-| File                                                                                         | Summary                                                                                                                                                                                                                                                                                                                                    |
-| ---                                                                                          | ---                                                                                                                                                                                                                                                                                                                                        |
-| [package-lock.json](https://github.com/ggrangel/fancy-counter/blob/master/package-lock.json) | This code file (`ButtonContainer.jsx`) in the `fancy-counter` repository plays a crucial role in managing the interactive functionality of the counter component. It orchestrates user actions by providing a centralized control hub for the buttons that increment and decrement the counter value, ensuring a seamless user experience. |
-| [package.json](https://github.com/ggrangel/fancy-counter/blob/master/package.json)           | Enables development and building processes, runs linters, and provides a preview in the `fancy-counter` repository. Contains dependencies and dev dependencies for React components, Vite, and ESLint plugins to support the projects frontend development.                                                                                |
-| [vite.config.js](https://github.com/ggrangel/fancy-counter/blob/master/vite.config.js)       | Enables React setup in the Vite project using the configuration file vite.config.js. Integrates the @vitejs/plugin-react plugin to optimize React-specific functionality, enhancing development efficiency and performance in the fancy-counter repository.                                                                                |
-| [index.html](https://github.com/ggrangel/fancy-counter/blob/master/index.html)               | Renders the main HTML structure of the web application, setting up the root element for React components. Links necessary styles and scripts to create an interactive user interface.                                                                                                                                                      |
-
-</details>
-
-<details closed><summary>src</summary>
-
-| File                                                                                                 | Summary                                                                                                                                                                                                                |
-| ---                                                                                                  | ---                                                                                                                                                                                                                    |
-| [ButtonContainer.jsx](https://github.com/ggrangel/fancy-counter/blob/master/src/ButtonContainer.jsx) | Enables rendering of interactive buttons for adjusting the count in the Fancy Counter app. Features Minus and Plus buttons with corresponding icons, supporting count modification within defined limits when clicked. |
-| [Count.jsx](https://github.com/ggrangel/fancy-counter/blob/master/src/Count.jsx)                     | Displays the count value in a styled paragraph component based on the received count prop.                                                                                                                             |
-| [Card.jsx](https://github.com/ggrangel/fancy-counter/blob/master/src/Card.jsx)                       | Manages a dynamic card component displaying a count that increments with the Space key, capped at 5. Updates unlocking state and handles event cleanup, ensuring optimal performance in the React application.         |
-| [main.jsx](https://github.com/ggrangel/fancy-counter/blob/master/src/main.jsx)                       | Renders the main App component using Reacts Concurrent Mode in the web application, ensuring smooth user experience and enhanced performance.                                                                          |
-| [ResetButton.jsx](https://github.com/ggrangel/fancy-counter/blob/master/src/ResetButton.jsx)         | Enables resetting count state with a button click, enhancing user experience. Utilizes ResetIcon from @radix-ui/react-icons library. Key feature in the fancy-counter repository UI.                                   |
-| [Title.jsx](https://github.com/ggrangel/fancy-counter/blob/master/src/Title.jsx)                     | Renders the title based on a locking condition, reflecting the apps status as a Fancy Counter. The feature dynamically prompts users to upgrade for premium features when exceeding the limit.                         |
-| [index.css](https://github.com/ggrangel/fancy-counter/blob/master/src/index.css)                     | Sets global styles and component-specific designs for a sleek user interface with vibrant colors, typography, and button interactions. Maintains responsiveness for various screen sizes.                              |
-| [App.jsx](https://github.com/ggrangel/fancy-counter/blob/master/src/App.jsx)                         | Renders the main** App component showing a Card within the parent repositorys architecture for the Fancy Counter project.                                                                                              |
-
-</details>
-
----
-
 ##  Getting Started
-
-**System Requirements:**
-
-* **JavaScript**: `version x.y.z`
 
 ###  Installation
 
